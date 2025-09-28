@@ -13,16 +13,16 @@ export default function Navbar() {
         </div>
         <ul className="flex space-x-6">
           <li>
-            <a href="#accueil" className="text-gray-700 font-bold hover:text-yellow-600 transition-colors"> Accueil </a>
+            <a href="/" className="text-gray-700 font-bold hover:text-yellow-600 transition-colors"> Accueil </a>
           </li>
           <li>
-            <a href="#apropos" className="text-gray-700 font-bold hover:text-yellow-600 transition-colors"> À propos </a>
+            <a href="/about" className="text-gray-700 font-bold hover:text-yellow-600 transition-colors"> À propos </a>
           </li>
           <li>
-            <a href="#services" className="text-gray-700 font-bold hover:text-yellow-600 transition-colors"> Services </a>
+            <a href="/reservation" className="text-gray-700 font-bold hover:text-yellow-600 transition-colors"> Services </a>
           </li>
           <li>
-            <a href="#contact" className="text-gray-700 font-bold hover:text-yellow-600 transition-colors"> Contact </a>
+            <a href="/contact" className="text-gray-700 font-bold hover:text-yellow-600 transition-colors"> Contact </a>
           </li>
         </ul>
       </div>
